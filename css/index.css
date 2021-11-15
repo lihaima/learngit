@@ -1,0 +1,357 @@
+/* 顶部导航栏模块 */
+header{
+    position: relative;
+    width: 100%;
+    height: 360px;
+    margin-bottom: 40px;
+}
+.header-hd{
+    position: relative;
+    height: 131px;
+    width: 100%;
+    background: url(../images/dark-jianbian-repeatx-0.png) repeat-x;
+    z-index: 10;
+}
+.header-hd .logo{
+    float: left;
+    margin-top: 10px;
+}
+.header-hd .topnav{
+    position: relative;
+    float: left;
+    z-index: 99;
+}
+.header-hd .topnav dl{
+    text-align: center;
+    width: 150px;
+    float: left;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.header-hd .topnav dl dt{
+    font-size: 18px;
+    height: 40px;
+}
+.header-hd .topnav dl dt a p:nth-child(2){
+    color: #c0c0c0;
+    font-size: 12px;
+}
+.header-hd .topnav dl a{
+    color: #fff;
+}
+
+.header-hd .topnav dl dd{
+    margin-top: 20px;
+    display: none;
+}
+.header-hd .topnav dl dd a:hover {
+    color: #cfb53b;
+}
+.header-hd .topnav dl dd a{
+    display: block;
+    height: 30px;
+}
+.header-hd .loginbar{
+    position: relative;
+    float: right;
+}
+.header-hd .loginbar > *{
+    margin-top: 18px;
+    float: left;
+   
+}
+.header-hd .loginbar img{
+    border-radius: 50%;
+    width: 36px;
+}
+.header-hd .loginbar span{
+    position: absolute;
+    top: -4px;
+    left: -6px;
+    background: url(../images/topfoot-spr.png) no-repeat -216px -118px;
+    width: 50px;
+    height: 50px;
+}
+.header-hd .loginbar p{
+    margin-left: 20px;
+    margin-top: 25px;
+    color: #fff;
+}
+.header-hd .loginbar p a{
+    color: #cfb53b;
+}
+.header-hd .search{
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+    background: url(../images/topfoot-spr.png) no-repeat -381px -39px;
+    width: 20px;
+    height: 20px;
+}
+.header-hd .download{
+    float: right;
+    margin-top: 27px;
+    margin-right: 50px;
+    background: url(../images/topfoot-spr.png) no-repeat -303px -84px;
+    width: 17px;
+    height: 25px;
+}
+
+
+/* 广告模块 */
+.header-bd{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.header-bd .w{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
+.header-bd img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+.header-bd .w>a{
+    position: absolute;
+    background: url(../images/topfoot-spr.png) no-repeat -216px -39px;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -80px;
+    display: block;
+    width: 160px;
+    height: 40px;
+    
+}
+.header-bd .w>p{
+    position: absolute;
+    bottom: 10%;
+    right:7%;
+    color: #c0c0c0;
+}
+.header-bd .w>p em{
+   color: #f5de85;
+}
+.header-bd .w>p a{
+    margin-left: 25px;
+    padding: 0 15px;
+    height: 22px;
+    display: inline-block;
+    border: 2px solid #f5d185;
+    color: #f5d185;
+    background: rgba(0, 0, 0, .65);
+    line-height: 20px;
+    font-size: 12px;
+}
+/* 轮播图模块 */
+.lunbo{
+    height: 380px;
+}
+.sle-l{
+    position: relative;
+    float: left;
+    height: 380px;
+    width: 820px;
+    overflow: hidden;
+}
+.sle-l .sle-l-img{
+    width: 4100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sle-l .sle-l-img li{
+    float: left;
+}
+.sle-l .sle-l-txt{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.sle-l .sle-l-txt li{
+    float: left;
+   width: 164px;
+   height: 40px;
+   line-height: 40px;
+   color: #424242;
+   background-color: #e3e2e2;
+   font-size: 14px;
+   text-align: center;
+}
+.sle-l .sle-l-txt .kn{
+    color: #ab8e66;
+    background-color: #f7f6f6;
+    border-bottom: 2px solid #ab8e66;
+}
+.sle-r{
+    width: 490px;
+    float:right;
+    height: 380px;
+    position: relative;
+}
+.sle-r .menu{
+    border-bottom: 1px solid #e0e2e2;
+    height: 35px;
+   
+}
+.sle-r .menu li{
+    height: 38px;
+    float: left;
+    margin-left: 77px;
+    font-size: 18px;
+    color: #676767;
+    line-height: 35px;
+    
+}
+.sle-r .menu li:first-child{
+    border-bottom: 1px solid #fff;
+    margin-left: 0;
+    background: url(../images/data_image_png;base….png) no-repeat center bottom;
+  
+}
+.sle-r .submenu li:first-child{
+    height: 50px;
+    width: 100%;
+    
+}
+.sle-r .submenu li:nth-child(1) a{
+    display: block;
+    background: url(../images/index-spr.png) no-repeat 0 -457px;
+    width: 100%;
+    color: #0da0b4;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.sle-r .submenu li{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 39px;
+    border-bottom: 1px solid #e0e2e2;
+    line-height: 39px;
+}
+.sle-r .submenu span{
+    display: inline-block;
+    width: 35px;
+    height: 20px;
+    color: #bb9a6c;
+    font-size: 12px;
+    border: 1px solid #bb9a6c;
+    text-align: center;
+    line-height: 20px;
+}
+.sle-r .submenu .xw{
+    color: #0da0b4;
+    border: 1px solid #0da0b4;
+}
+.sle-r .submenu i{
+    float: right;
+}
+.sle-r>a{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    text-align: center;
+    width: 490px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #e3e2e2;
+    color: #676767;
+    font-size: 14px;
+}
+.sle-r>a>i{
+    color: #7ea1a6;
+}
+/* 热门活动 */
+.hot{
+    margin-top: 50px;
+    height: 335px;
+    
+}
+.hot-l{
+    float: left;
+    width: 820px;
+    height: 335px;
+}
+.hot-l .hot-hd *{
+   float: left;
+   height: 30px;
+   line-height: 30px;
+}
+.hot-l .hot-hd::before{
+    display:block;
+    float: left;
+    content: '';
+    height: 30px;
+    width: 5px;
+    background-color: #0da0b4;
+}
+.hot-l .hot-hd h2{
+    font-weight: 400;
+    margin-left: 10px;
+}
+.hot-l .hot-hd ul li{
+    margin-right: 30px;
+
+}
+.hot-l .hot-hd ul li:first-child{
+    height: 33px;
+    border-bottom: 1px solid #fff;
+    background: url(../images/data_image_png;base….png) no-repeat center bottom;
+}
+.hot-l .hot-hd a{
+    float: right;
+    font-size: 12px;
+    color: #0da0b4;
+}
+.hot-hd .hot-hd-l{
+    margin-left: 30px;
+    width: 652px;
+    border-bottom: 1px solid #e3e2e2;
+}
+.hot-bd{
+    margin-top: 50px;
+}
+.hot-bd ul{
+    display: none;
+}
+.hot-bd ul li{
+    float: left;
+    margin-left: 15px;
+}
+.hot-bd ul li:first-child{
+    margin-left: 0;
+}
+.hot-bd ul li a{
+    display: block;
+    height: 278px;
+    width: 193px;
+    background-color: #fff;
+}
+.hot-bd ul li a p{
+    color: #000;
+    padding-left: 10px;
+}
+.hot-bd ul li a span{
+    line-height: 80px;
+    font-size: 12px;
+    color: #0da0b4;
+    margin-left: 10px;
+}
+.hot-bd ul li a i{
+    margin-left: 70px;
+    display: inline-block;
+    height: 14px;
+    width: 30px;
+    background: url(../images/comm-spr.png) no-repeat -300px -46px;
+}
